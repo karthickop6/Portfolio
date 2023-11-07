@@ -628,10 +628,15 @@ body{
     font-size: 16px;
     opacity: .8;
 }
-#skills{
+#ls{
     width: 100%;
     height:auto;
 }
+
+
+
+
+
 .skills-header{
     height: auto;
     width: 100%;
@@ -690,11 +695,52 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .4s ease;
-    width:95%;
+    width:0%;
     border-radius: 10px;
     background: #c70039;
+    animation: none;
+    animation: htmlProgress 10s linear forwards;
+
+    
 }
+
+
+@keyframes htmlProgress {
+  0% {
+    width: 0%; /* Starting width of the progress bar */
+  }
+  100% {
+    width: 50%; /* Ending width of the progress bar (100%) */
+  }
+}
+
+@keyframes js {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 90%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+  @keyframes Webpen {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 80%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+  @keyframes React {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 70%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
 .js-progress{
     position: absolute;
     top:10%;
@@ -705,9 +751,10 @@ body{
     font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
-    width:90%;
+    width:0%;
     border-radius: 10px;
     background: #c70039;
+    animation: js 10s linear forwards;
 }
 .adobe-progress{
     position: absolute;
