@@ -380,7 +380,7 @@ body{
 }
 .contact img{
     margin:10px;
-    height:30px;
+    height:10px;
     opacity: .6;
     transition: all .4s ease;
 }
