@@ -699,7 +699,7 @@ body{
     border-radius: 10px;
     background: #c70039;
     animation: none;
-    animation: htmlProgress 10s linear forwards;
+    animation: htmlProgress 18s linear forwards;
 
     
 }
@@ -754,7 +754,7 @@ body{
     width:0%;
     border-radius: 10px;
     background: #c70039;
-    animation: js 10s linear forwards;
+    animation: js 18s linear forwards;
 }
 .adobe-progress{
     position: absolute;
