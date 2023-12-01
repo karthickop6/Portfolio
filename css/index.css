@@ -716,34 +716,7 @@ body{
   }
 }
 
-@keyframes js {
-    0% {
-      width: 0%; /* Starting width of the progress bar */
-    }
-    100% {
-      width: 90%; /* Ending width of the progress bar (100%) */
-    }
-  }
-
-  @keyframes Webpen {
-    0% {
-      width: 0%; /* Starting width of the progress bar */
-    }
-    100% {
-      width: 80%; /* Ending width of the progress bar (100%) */
-    }
-  }
-
-  @keyframes React {
-    0% {
-      width: 0%; /* Starting width of the progress bar */
-    }
-    100% {
-      width: 70%; /* Ending width of the progress bar (100%) */
-    }
-  }
-
-.js-progress{
+.css-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -756,9 +729,46 @@ body{
     width:0%;
     border-radius: 10px;
     background: #c70039;
-    animation: js 18s linear forwards;
+    animation: css 18s linear forwards;
 }
-.adobe-progress{
+
+@keyframes css {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 90%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+
+  
+
+.react-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-family: poppins;
+    justify-content: center;
+    transition: all .4s ease;
+    width:0%;
+    border-radius: 10px;
+    background: #c70039;
+    animation: react 18s linear forwards;
+}
+
+@keyframes react {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 100%; /* Ending width of the progress bar (100%) */
+    }
+  }
+.bootstrap-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -770,7 +780,93 @@ body{
     width:83%;
     border-radius: 10px;
     background: #c70039;
+    animation: bootstrap 18s linear forwards;
 }
+
+@keyframes bootstrap {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 100%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+  .javascript-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width:83%;
+    border-radius: 10px;
+    background: #c70039;
+    animation: javascript 18s linear forwards;
+}
+
+@keyframes javascript {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 100%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+.react-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width:83%;
+    border-radius: 10px;
+    background: #c70039;
+    animation: react 18s linear forwards;
+}
+
+@keyframes react {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 100%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+
+  .sql-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width:83%;
+    border-radius: 10px;
+    background: #c70039;
+    animation: sql 18s linear forwards;
+}
+
+@keyframes sql {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 100%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+
+
 .php-progress{
     position: absolute;
     top:10%;
