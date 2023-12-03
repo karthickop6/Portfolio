@@ -701,7 +701,7 @@ body{
     border-radius: 10px;
     background: #c70039;
     animation: none;
-    animation: htmlProgress 18s linear forwards;
+    animation: htmlProgress 20s linear forwards;
 
     
 }
@@ -712,7 +712,7 @@ body{
     width: 0%; /* Starting width of the progress bar */
   }
   100% {
-    width: 50%; /* Ending width of the progress bar (100%) */
+    width: 80%; /* Ending width of the progress bar (100%) */
   }
 }
 
@@ -729,7 +729,7 @@ body{
     width:0%;
     border-radius: 10px;
     background: #c70039;
-    animation: css 18s linear forwards;
+    animation: css 20s linear forwards;
 }
 
 @keyframes css {
@@ -757,7 +757,7 @@ body{
     width:0%;
     border-radius: 10px;
     background: #c70039;
-    animation: react 18s linear forwards;
+    animation: react 20s linear forwards;
 }
 
 @keyframes react {
@@ -765,10 +765,10 @@ body{
       width: 0%; /* Starting width of the progress bar */
     }
     100% {
-      width: 100%; /* Ending width of the progress bar (100%) */
+      width: 70%; /* Ending width of the progress bar (100%) */
     }
   }
-.bootstrap-progress{
+.sql-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -780,15 +780,15 @@ body{
     width:83%;
     border-radius: 10px;
     background: #c70039;
-    animation: bootstrap 18s linear forwards;
+    animation: sql 20s linear forwards;
 }
 
-@keyframes bootstrap {
+@keyframes sql {
     0% {
       width: 0%; /* Starting width of the progress bar */
     }
     100% {
-      width: 100%; /* Ending width of the progress bar (100%) */
+      width: 60%; /* Ending width of the progress bar (100%) */
     }
   }
 
@@ -804,7 +804,7 @@ body{
     width:83%;
     border-radius: 10px;
     background: #c70039;
-    animation: javascript 18s linear forwards;
+    animation: javascript 20s linear forwards;
 }
 
 @keyframes javascript {
@@ -812,62 +812,13 @@ body{
       width: 0%; /* Starting width of the progress bar */
     }
     100% {
-      width: 100%; /* Ending width of the progress bar (100%) */
-    }
-  }
-
-.react-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .4s ease;
-    width:83%;
-    border-radius: 10px;
-    background: #c70039;
-    animation: react 18s linear forwards;
-}
-
-@keyframes react {
-    0% {
-      width: 0%; /* Starting width of the progress bar */
-    }
-    100% {
-      width: 100%; /* Ending width of the progress bar (100%) */
-    }
-  }
-
-
-  .sql-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .4s ease;
-    width:83%;
-    border-radius: 10px;
-    background: #c70039;
-    animation: sql 18s linear forwards;
-}
-
-@keyframes sql {
-    0% {
-      width: 0%; /* Starting width of the progress bar */
-    }
-    100% {
-      width: 100%; /* Ending width of the progress bar (100%) */
+      width: 70%; /* Ending width of the progress bar (100%) */
     }
   }
 
 
 
-.php-progress{
+.webpen-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -879,8 +830,20 @@ body{
     border-radius: 10px;
     background: #c70039;
     transition: all .4s ease;
+    animation: webpen 20s linear forwards;
+
 }
-.jquery-progress{
+
+@keyframes webpen {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 80%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+  .python-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -888,12 +851,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .4s ease;
-    width:94%;
+    width:85%;
     border-radius: 10px;
     background: #c70039;
+    transition: all .4s ease;
+    animation: python 20s linear forwards;
+
 }
-.seo-progress{
+
+@keyframes python {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 60%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+
+  .seo-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -901,11 +877,74 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:84%;
+    width:85%;
     border-radius: 10px;
-    transition: all .4s ease;
     background: #c70039;
+    transition: all .4s ease;
+    animation: seo 20s linear forwards;
+
 }
+
+@keyframes seo {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 80%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+
+  .mobilepen-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:85%;
+    border-radius: 10px;
+    background: #c70039;
+    transition: all .4s ease;
+    animation: mobilepen 20s linear forwards;
+
+}
+
+@keyframes mobilepen {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 60%; /* Ending width of the progress bar (100%) */
+    }
+  }
+
+
+  .c-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:85%;
+    border-radius: 10px;
+    background: #c70039;
+    transition: all .4s ease;
+    animation: c 20s linear forwards;
+
+}
+
+@keyframes c {
+    0% {
+      width: 0%; /* Starting width of the progress bar */
+    }
+    100% {
+      width: 90%; /* Ending width of the progress bar (100%) */
+    }
+  }
 .portfolio-header{
     height: auto;
     width: 100%;
